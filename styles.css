@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 48px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1:hover, h2:hover, p:hover, li:hover, a:hover {
+    color: gray;
+}
+
+#composition {
+    display: flex;
+    justify-content: center;
+}
+
+header, nav, main, aside, h1, h2, h3, p {
+    margin: 1%;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    #composition {
+        flex-wrap: wrap;
+    }
+
+    header, nav, main, aside, h1, h2, h3, p {
+        margin: 2%;
+    }
+
+    nav, h2 {
+        text-align: center;
+    }
+  }
